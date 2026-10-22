@@ -150,7 +150,7 @@
         <path d="M737 441 C736 465 695 468 662 485" fill="none" stroke="#83d9d9" stroke-width="1.6" stroke-dasharray="4 9" class="signal" opacity=".8"/>
         <circle r="3" fill="#a6fff1"></circle>
         <g id="ai-layer" class="stage-group soft-float">
-          <rect x="557" y="485" width="153" height="129" rx="8" class="hud-panel"/><text x="573" y="519" class="scene-label">智能解译</text>
+          <rect x="557" y="485" width="153" height="129" rx="8" class="hud-panel"/><text x="573" y="519" class="scene-label">深度学习</text>
           
           <g stroke="#477c91" stroke-width="1" opacity=".85"><path d="M580 555 L614 545 L652 556 L680 547 M580 555 L614 578 L652 556 L680 579 M580 584 L614 545 L652 583 L680 547 M580 584 L614 578 L652 583 L680 579 M614 545 L652 583 M614 578 L652 556"/></g>
           <g fill="#77f3e2" stroke="#d7fff4" stroke-width=".6"><circle class="neuron" cx="580" cy="555" r="4"/><circle class="neuron n2" cx="580" cy="584" r="4"/><circle class="neuron n3" cx="614" cy="545" r="4.5"/><circle class="neuron n4" cx="614" cy="578" r="4.5"/><circle class="neuron n2" cx="652" cy="556" r="5"/><circle class="neuron n3" cx="652" cy="583" r="5"/><circle class="neuron" cx="680" cy="547" r="4.5"/><circle class="neuron n4" cx="680" cy="579" r="4.5"/></g>
@@ -160,7 +160,7 @@
         <path d="M710 551 C743 551 752 530 773 515" fill="none" stroke="#82efd9" stroke-width="1.6" stroke-dasharray="4 8" class="signal" opacity=".78"/>
         <circle r="3" fill="#a6fff1"></circle>
         <g id="analysis-layer" class="stage-group soft-float alt">
-          <rect x="759" y="466" width="175" height="138" rx="8" class="hud-panel"/><text x="773" y="500" class="scene-label">地表分析</text>
+          <rect x="759" y="466" width="175" height="138" rx="8" class="hud-panel"/><text x="773" y="500" class="scene-label">机理分析</text>
           
           <rect x="774" y="519" width="144" height="69" rx="3" fill="#163645" stroke="#416579"/>
           <path d="M777 573 L813 542 L837 552 L868 524 L915 535 L915 584 L777 584 Z" fill="#1b7379" opacity=".55"/>
