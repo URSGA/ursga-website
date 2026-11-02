@@ -1,0 +1,809 @@
+{
+  "schemaVersion": 1,
+  "site": {
+    "name": "城市遥感与地学分析研究组",
+    "nameEn": "Urban Remote Sensing and Geographical Analysis",
+    "shortName": "URSGA",
+    "titleLines": [
+      "城市遥感与",
+      "地学分析研究组"
+    ],
+    "logo": "assets/images/ursga-logo.png",
+    "eyebrow": "URSGA · 城市遥感与地学分析",
+    "summary": "主要研究方向为城市遥感信息处理与应用，面向多源多模态遥感观测，综合机理与学习模型，开展复杂辐射畸变校正、环境目标识别、三维场景重建的理论与方法研究，聚焦城市气候（热与水）多尺度格局与演变规律挖掘，为城市智能监测与调控提供科学技术支撑。",
+    "affiliation": "武汉大学 · 资源与环境科学学院",
+    "email": "huifangli@whu.edu.cn",
+    "heroImage": "assets/images/team/group-photo.jpeg",
+    "heroImageAlt": "城市遥感与地学分析研究组团队合照",
+    "researchFocus": [
+      {
+        "name": "遥感影像恢复与校正",
+        "detail": "薄云去除 · 阴影校正 · 物理模型与深度学习融合"
+      },
+      {
+        "name": "场景理解与三维重建",
+        "detail": "目标分割与补全 · 交通网络提取 · 无人机三维重建"
+      },
+      {
+        "name": "城市热环境与气候分析",
+        "detail": "地表温度重建 · 局地气候分区 · 高温风险评估"
+      }
+    ],
+    "researchTags": [
+      "遥感影像处理",
+      "城市遥感分析",
+      "遥感三维重建"
+    ],
+    "identity": {
+      "university": {
+        "url": "https://www.whu.edu.cn/",
+        "image": "assets/images/optimized/whu-lockup.webp",
+        "alt": "武汉大学 Wuhan University",
+        "ariaLabel": "武汉大学官网（新窗口打开）"
+      },
+      "college": {
+        "url": "https://sres.whu.edu.cn/",
+        "image": "assets/images/optimized/sres-emblem.webp",
+        "alt": "武汉大学资源与环境科学学院院徽",
+        "ariaLabel": "武汉大学资源与环境科学学院官网（新窗口打开）"
+      }
+    },
+    "heroMedia": {
+      "animated": "assets/animations/geo-observation.svg",
+      "static": "assets/animations/geo-observation-static.svg",
+      "alt": "卫星与无人机观测地球上的三维城市，观测影像经信息处理与人工智能分析形成地理空间成果"
+    }
+  },
+  "about": {
+    "text": "",
+    "facts": [
+      {
+        "label": "所属研究室",
+        "value": "融合感知与地学智能研究室",
+        "url": "https://sendimage.whu.edu.cn/"
+      },
+      {
+        "label": "所在单位",
+        "value": "武汉大学资源与环境科学学院"
+      }
+    ]
+  },
+  "teacher": {
+    "name": "李慧芳",
+    "nameEn": "Huifang Li",
+    "title": "教授 · 博士生导师",
+    "affiliation": "武汉大学资源与环境科学学院",
+    "bio": "李慧芳，武汉大学资源与环境科学学院教授、博士生导师，主持国家自然科学基金优秀青年项目。主要研究方向为城市遥感信息处理与应用，面向多源多模态遥感观测，综合机理与学习模型，开展复杂辐射畸变校正、环境目标识别、三维场景重建的理论与方法研究，聚焦城市气候（热与水）多尺度格局与演变规律挖掘，为城市智能监测与调控提供科学技术支撑。主持国家自然科学基金4项（含优青1项）、国家重点研发项目课题/子课题3项及省部级等项目10余项。在RSE、ISPRS P&RS、IEEE TGRS等期刊发表论文50余篇。获美国摄影测量与遥感协会（ASPRS）ERDAS最佳遥感科学论文奖，以及湖北省科技进步一等奖、地理信息科技进步一等奖和测绘科技进步一等奖。",
+    "research": [
+      {
+        "label": "研究方向",
+        "text": "主要研究方向为城市遥感信息处理与应用，面向多源多模态遥感观测，综合机理与学习模型，开展复杂辐射畸变校正、环境目标识别、三维场景重建的理论与方法研究，聚焦城市气候（热与水）多尺度格局与演变规律挖掘，为城市智能监测与调控提供科学技术支撑。"
+      }
+    ],
+    "photo": "assets/images/optimized/huifang-li.webp",
+    "photoAlt": "李慧芳教授个人照片",
+    "links": [
+      {
+        "label": "Email",
+        "url": "mailto:huifangli@whu.edu.cn"
+      },
+      {
+        "label": "个人主页",
+        "url": "https://jszy.whu.edu.cn/lihuifang1/zh_CN/index.htm"
+      }
+    ]
+  },
+  "research": {
+    "heading": "科学研究",
+    "pageSize": 3,
+    "filters": [
+      "All",
+      "Project",
+      "Dataset",
+      "Paper"
+    ],
+    "areaOrder": [
+      "shadow",
+      "reconstruction",
+      "cloud",
+      "thermal",
+      "scene"
+    ]
+  },
+  "publications": [
+    {
+      "id": "2026-phyvlm-cr",
+      "order": 0,
+      "year": 2026,
+      "type": "Paper",
+      "title": "Physics-Guided VLM Priors for All-Cloud Removal",
+      "authors": "Liying Xu, Huifang Li, Huanfeng Shen",
+      "correspondingAuthors": [
+        "Huifang Li"
+      ],
+      "venue": "IEEE Geoscience and Remote Sensing Letters · 2026",
+      "citationDetails": "Vol. 23 · Art. 6017305",
+      "contribution": "融合视觉语言模型先验与物理成像模型，统一薄云辐射校正与厚云时序重建，实现混合云场景的零样本去云。",
+      "previewSize": [
+        2150,
+        1505
+      ],
+      "preview": [
+        {
+          "label": "有云影像",
+          "box": [
+            186,
+            18,
+            201,
+            201
+          ]
+        },
+        {
+          "label": "去云结果",
+          "box": [
+            1690,
+            18,
+            201,
+            201
+          ]
+        },
+        {
+          "label": "晴空对照",
+          "box": [
+            1941,
+            18,
+            201,
+            201
+          ]
+        }
+      ],
+      "image": "assets/images/publications/2026-phyvlm-cr.png",
+      "imageAlt": "PhyVLM-CR 论文图 2：六个真实 Sentinel-2 场景的有云影像、不同去云方法与晴空观测对比；预览为四川场景的有云影像、PhyVLM-CR 结果和晴空对照",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://ieeexplore.ieee.org/abstract/document/11641653"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/Liying-Xu/PhyVLM-CR"
+        },
+        {
+          "label": "Project",
+          "url": "https://liying-xu.github.io/PhyVLM-CR/"
+        }
+      ],
+      "thumbnail": "assets/images/publications/previews/2026-phyvlm-cr.webp",
+      "researchArea": "cloud"
+    },
+    {
+      "id": "2026-gaw-lst",
+      "order": 10,
+      "year": 2026,
+      "type": "Dataset",
+      "title": "Global All-weather Land Surface Temperature Dataset (2003–2023)",
+      "authors": "Huifang Li, Wei Deng, Yuting Gong, Liying Xu, Huanfeng Shen",
+      "highlightedAuthors": [
+        "Huifang Li"
+      ],
+      "venue": "Dataset · 2026",
+      "contribution": "全球全天候地表温度数据集（GAW-LST）。",
+      "citationDetails": "DOI: 10.11878/db.202607.000057 · CSTR: 10441.11.202607.000057",
+      "image": "assets/images/publications/2026-gaw-lst.png",
+      "imageAlt": "2023年8月4日四个时刻（10:30、13:30、22:30、01:30）的全球全天候地表温度分布",
+      "links": [
+        {
+          "label": "Dataset",
+          "url": "https://chinageoss.cn/finddatasetsdetalis?id=2077650475529244674"
+        }
+      ],
+      "thumbnail": "assets/images/publications/previews/2026-gaw-lst.webp",
+      "researchArea": "thermal"
+    },
+    {
+      "id": "2026-amodal",
+      "order": 20,
+      "year": 2026,
+      "type": "Paper",
+      "title": "From Incomplete Views to Complete Objects: Amodal Completion for Semantic and Structural Restoration in Remote Sensing",
+      "authors": "Mingyang Lei, Huifang Li, Huanfeng Shen",
+      "correspondingAuthors": [
+        "Huifang Li"
+      ],
+      "venue": "Journal of Remote Sensing · 2026",
+      "citationDetails": "Vol. 6 · Art. 1035",
+      "contribution": "从局部可见信息补全遥感目标，恢复被遮挡物体的完整结构与语义。",
+      "image": "assets/images/publications/2026-amodal.png",
+      "imageAlt": "论文图 2：遥感目标非模态补全与传统图像修复方法对比",
+      "previewSize": [
+        958,
+        403
+      ],
+      "preview": [
+        {
+          "label": "遮挡场景",
+          "box": [
+            5,
+            130,
+            128,
+            128
+          ]
+        },
+        {
+          "label": "目标补全",
+          "box": [
+            624,
+            35,
+            128,
+            128
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.34133/remotesensing.1035"
+        }
+      ],
+      "thumbnail": "assets/images/publications/previews/2026-amodal.webp",
+      "researchArea": "scene"
+    },
+    {
+      "id": "2026-thermal-risk",
+      "order": 30,
+      "year": 2026,
+      "type": "Paper",
+      "title": "Thermal environment simulation and risk assessment in urban commercial areas under extreme high temperatures",
+      "authors": "Hanqian Chen, Huifang Li, Zhiheng Wang",
+      "correspondingAuthors": [
+        "Huifang Li"
+      ],
+      "venue": "Urban Climate · 2026",
+      "citationDetails": "Vol. 66 · Art. 102826",
+      "contribution": "模拟极端高温下商业区的三维热环境，评估人群热应激风险。",
+      "image": "assets/images/publications/2026-thermal-risk.png",
+      "imageAlt": "论文图 3：杭州湖滨路商业区各时段气温模拟结果及温度图例",
+      "previewSize": [
+        936,
+        680
+      ],
+      "preview": [
+        {
+          "label": "8:00 气温",
+          "box": [
+            28,
+            12,
+            157,
+            136
+          ]
+        },
+        {
+          "label": "14:00 气温",
+          "box": [
+            215,
+            180,
+            157,
+            136
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1016/j.uclim.2026.102826"
+        }
+      ],
+      "thumbnail": "assets/images/publications/previews/2026-thermal-risk.webp",
+      "researchArea": "thermal"
+    },
+    {
+      "id": "2026-diffusion-cloud",
+      "order": 40,
+      "year": 2026,
+      "type": "Paper",
+      "title": "Diffusion generation with homomorphic filtering for remote sensing thin cloud removal",
+      "authors": "Mingyang Lei, Huifang Li, Liying Xu, Huanfeng Shen",
+      "correspondingAuthors": [
+        "Huifang Li"
+      ],
+      "venue": "Geo-Spatial Information Science · 2026",
+      "citationDetails": "Vol. 29, No. 3 · pp. 2174–2187",
+      "contribution": "结合同态滤波与扩散生成，仅用无云影像训练，实现薄云去除与地表信息恢复。",
+      "image": "assets/images/publications/2026-diffusion-cloud.png",
+      "imageAlt": "论文图 7：大幅遥感影像的薄云去除结果",
+      "previewSize": [
+        790,
+        220
+      ],
+      "preview": [
+        {
+          "label": "含云影像",
+          "box": [
+            8,
+            4,
+            186,
+            188
+          ]
+        },
+        {
+          "label": "去云结果",
+          "box": [
+            199,
+            4,
+            186,
+            188
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1080/10095020.2025.2543495"
+        }
+      ],
+      "thumbnail": "assets/images/publications/previews/2026-diffusion-cloud.webp",
+      "researchArea": "cloud"
+    },
+    {
+      "id": "2025-rs-gssr",
+      "order": 50,
+      "year": 2025,
+      "type": "Paper",
+      "title": "Generative Shadow Synthesis and Removal for Remote Sensing Images Through Embedding Illumination Models",
+      "authors": "Chenglin Shao, Huifang Li, Huanfeng Shen",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing · 2025",
+      "citationDetails": "Vol. 63 · pp. 1–15 · Art. 5620115",
+      "contribution": "将光照模型融入阴影合成与去除，恢复被阴影遮蔽的地表细节。",
+      "previewSize": [
+        860,
+        395
+      ],
+      "preview": [
+        {
+          "label": "去除前",
+          "box": [
+            201,
+            211,
+            65,
+            63
+          ]
+        },
+        {
+          "label": "去除后",
+          "box": [
+            665,
+            302,
+            65,
+            63
+          ]
+        }
+      ],
+      "image": "assets/images/publications/2025-rs-gssr.png",
+      "imageAlt": "阴影合成与去除论文图 1：合成训练流程及阴影去除结果对比",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1109/TGRS.2025.3561307"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/fzzfRS/RS-GSSR"
+        },
+        {
+          "label": "Project",
+          "url": "https://fzzfrs.github.io/RS-GSSR/"
+        }
+      ],
+      "correspondingAuthors": [
+        "Huifang Li"
+      ],
+      "thumbnail": "assets/images/publications/previews/2025-rs-gssr.webp",
+      "researchArea": "shadow"
+    },
+    {
+      "id": "2025-pgcs",
+      "order": 60,
+      "year": 2025,
+      "type": "Paper",
+      "title": "PGCS: Physical Law Embedded Generative Cloud Synthesis in Remote Sensing Images",
+      "authors": "Liying Xu, Huifang Li, Huanfeng Shen, Mingyang Lei, Tao Jiang",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing · 2025",
+      "citationDetails": "Vol. 63 · pp. 1–17 · Art. 5616617",
+      "contribution": "将物理规律融入云合成，生成不同形态与厚度的遥感云影像。",
+      "previewSize": [
+        870,
+        545
+      ],
+      "preview": [
+        {
+          "label": "较薄云层",
+          "box": [
+            153,
+            5,
+            122,
+            122
+          ]
+        },
+        {
+          "label": "中等云层",
+          "box": [
+            446,
+            5,
+            122,
+            122
+          ]
+        },
+        {
+          "label": "较厚云层",
+          "box": [
+            740,
+            5,
+            122,
+            122
+          ]
+        }
+      ],
+      "image": "assets/images/publications/2025-pgcs.png",
+      "imageAlt": "PGCS 论文图 5：不同云形态与云厚度的遥感影像合成结果",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1109/TGRS.2025.3553239"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/Liying-Xu/PGCS"
+        },
+        {
+          "label": "Project",
+          "url": "https://liying-xu.github.io/PGCS/"
+        }
+      ],
+      "correspondingAuthors": [
+        "Huifang Li"
+      ],
+      "thumbnail": "assets/images/publications/previews/2025-pgcs.webp",
+      "researchArea": "cloud"
+    },
+    {
+      "id": "2025-stcgl",
+      "order": 70,
+      "year": 2025,
+      "type": "Paper",
+      "title": "A Spatiotemporal Consistency-Guided Global–Local Fusion Network for All-Weather LST Reconstruction",
+      "authors": "Yuting Gong, Huifang Li, Huanfeng Shen",
+      "correspondingAuthors": [
+        "Huifang Li"
+      ],
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing · 2025",
+      "citationDetails": "Vol. 63 · pp. 1–16 · Art. 4419216",
+      "contribution": "以时空一致性约束融合热红外与再分析数据，重建云覆盖条件下的地表温度。",
+      "image": "assets/images/publications/2025-stcgl.png",
+      "imageAlt": "论文图 9：地表温度缺测与不同方法的重建结果，含温度图例",
+      "previewSize": [
+        865,
+        1034
+      ],
+      "preview": [
+        {
+          "label": "缺测 LST",
+          "box": [
+            195,
+            9,
+            150,
+            151
+          ]
+        },
+        {
+          "label": "重建 LST",
+          "box": [
+            195,
+            662,
+            150,
+            151
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1109/TGRS.2025.3618652"
+        }
+      ],
+      "thumbnail": "assets/images/publications/previews/2025-stcgl.webp",
+      "researchArea": "thermal"
+    },
+    {
+      "id": "2025-bids-nerf",
+      "order": 80,
+      "year": 2025,
+      "type": "Paper",
+      "title": "Depth-Enhanced Neural Radiance Fields for UAV-Based 3-D Reconstruction via Bidirectional Optimization and Space Warping",
+      "authors": "Wei Deng, Huifang Li, Huanfeng Shen",
+      "correspondingAuthors": [
+        "Huifang Li"
+      ],
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing · 2025",
+      "citationDetails": "Vol. 63 · pp. 1–14 · Art. 5650014",
+      "contribution": "联合深度估计、双向优化与空间变形，提升无人机三维重建的几何精度与渲染质量。",
+      "image": "assets/images/publications/2025-bids-nerf.png",
+      "imageAlt": "论文图 7：OMMO 场景的新视角合成结果对比",
+      "previewSize": [
+        900,
+        320
+      ],
+      "preview": [
+        {
+          "label": "NeRF",
+          "box": [
+            186,
+            108,
+            168,
+            86
+          ]
+        },
+        {
+          "label": "BiDS-NeRF",
+          "box": [
+            725,
+            108,
+            168,
+            86
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1109/TGRS.2025.3626844"
+        }
+      ],
+      "thumbnail": "assets/images/publications/previews/2025-bids-nerf.webp",
+      "researchArea": "reconstruction"
+    },
+    {
+      "id": "2024-tcbc",
+      "order": 90,
+      "year": 2024,
+      "type": "Paper",
+      "title": "A Thin Cloud Blind Correction Method Coupling a Physical Model with Unsupervised Deep Learning for Remote Sensing Imagery",
+      "authors": "Liying Xu, Huifang Li, Huanfeng Shen, Chi Zhang, Liangpei Zhang",
+      "correspondingAuthors": [
+        "Huifang Li"
+      ],
+      "venue": "ISPRS Journal of Photogrammetry and Remote Sensing · 2024",
+      "citationDetails": "Vol. 218 · pp. 246–259",
+      "contribution": "耦合物理成像模型与无监督学习，实现无需成对训练数据的薄云盲校正。",
+      "image": "assets/images/publications/2024-tcbc.png",
+      "imageAlt": "论文图 13：TC-BC 的含云影像、云分量与地表分量分离结果",
+      "previewSize": [
+        742,
+        939
+      ],
+      "preview": [
+        {
+          "label": "含云影像",
+          "box": [
+            7,
+            233,
+            224,
+            224
+          ]
+        },
+        {
+          "label": "校正结果",
+          "box": [
+            507,
+            233,
+            224,
+            224
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1016/j.isprsjprs.2024.09.008"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/Liying-Xu/TCBC"
+        }
+      ],
+      "thumbnail": "assets/images/publications/previews/2024-tcbc.webp",
+      "researchArea": "cloud"
+    },
+    {
+      "id": "2024-lcz",
+      "order": 100,
+      "year": 2024,
+      "type": "Paper",
+      "title": "Local Climate Zone Mapping by Coupling Multilevel Features With Prior Knowledge Based on Remote Sensing Images",
+      "authors": "Xinrun Zhong, Huifang Li, Huanfeng Shen, Meiling Gao, Zhihua Wang, Jinqiang He",
+      "correspondingAuthors": [
+        "Huifang Li"
+      ],
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing · 2024",
+      "citationDetails": "Vol. 62 · pp. 1–14 · Art. 4403014",
+      "contribution": "融合全局与局部多层特征及先验知识，实现面向多城市的局地气候区制图。",
+      "image": "assets/images/publications/2024-lcz.png",
+      "imageAlt": "论文图 12：北京、上海和东京的遥感影像与局地气候区制图结果",
+      "previewSize": [
+        640,
+        770
+      ],
+      "preview": [
+        {
+          "label": "遥感影像",
+          "box": [
+            38,
+            10,
+            247,
+            239
+          ]
+        },
+        {
+          "label": "气候区制图",
+          "box": [
+            313,
+            10,
+            249,
+            239
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1109/TGRS.2024.3360522"
+        }
+      ],
+      "thumbnail": "assets/images/publications/previews/2024-lcz.webp",
+      "researchArea": "thermal"
+    },
+    {
+      "id": "2024-mctn",
+      "order": 110,
+      "year": 2024,
+      "type": "Paper",
+      "title": "MCTN-Net: A Multiclass Transportation Network Extraction Method Combining Orientation and Semantic Features",
+      "authors": "Chenglin Shao, Huifang Li, Huanfeng Shen",
+      "correspondingAuthors": [
+        "Huifang Li"
+      ],
+      "venue": "IEEE Geoscience and Remote Sensing Letters · 2024",
+      "citationDetails": "Vol. 21 · pp. 1–5 · Art. 6005205",
+      "contribution": "融合方向与语义特征，同时提取铁路、公路、小径和桥梁，改善交通网络连通性。",
+      "image": "assets/images/publications/2024-mctn.png",
+      "imageAlt": "论文图 5：多类别交通网络提取结果对比",
+      "previewSize": [
+        850,
+        369
+      ],
+      "preview": [
+        {
+          "label": "遥感影像",
+          "box": [
+            7,
+            264,
+            79,
+            79
+          ]
+        },
+        {
+          "label": "网络提取",
+          "box": [
+            666,
+            264,
+            79,
+            79
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1109/LGRS.2024.3372194"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/fzzfRS/MCTN-Net"
+        }
+      ],
+      "thumbnail": "assets/images/publications/previews/2024-mctn.webp",
+      "researchArea": "scene"
+    },
+    {
+      "id": "2025-catnet",
+      "order": 120,
+      "year": 2024,
+      "type": "Paper",
+      "title": "Learning to Aggregate Multi-Scale Context for Instance Segmentation in Remote Sensing Images",
+      "authors": "Ye Liu, Huifang Li, Chao Hu, Shuang Luo, Yan Luo, Chang Wen Chen",
+      "correspondingAuthors": [
+        "Huifang Li"
+      ],
+      "venue": "IEEE Transactions on Neural Networks and Learning Systems · 2024",
+      "citationDetails": "Vol. 36, No. 1 · pp. 595–609",
+      "contribution": "在特征、空间和实例层面聚合多尺度上下文，提升密集、小尺度遥感目标的实例分割表现。",
+      "image": "assets/images/publications/2025-catnet.png",
+      "imageAlt": "论文图 9：CATNet 在多个数据集上的注意力与检测、实例分割结果",
+      "previewSize": [
+        915,
+        650
+      ],
+      "preview": [
+        {
+          "label": "飞机分割",
+          "box": [
+            307,
+            157,
+            145,
+            146
+          ]
+        },
+        {
+          "label": "船舶分割",
+          "box": [
+            6,
+            157,
+            145,
+            146
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1109/TNNLS.2023.3336563"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/yeliudev/CATNet"
+        }
+      ],
+      "thumbnail": "assets/images/publications/previews/2025-catnet.webp",
+      "researchArea": "scene"
+    }
+  ],
+  "metadata": {
+    "title": "城市遥感与地学分析研究组 | URSGA · 武汉大学",
+    "description": "武汉大学城市遥感与地学分析研究组（URSGA），研究多源多模态遥感影像校正、环境目标识别、三维场景重建与城市气候（热与水）分析。",
+    "themeColor": "#153f49",
+    "favicon": "assets/images/ursga-logo.png"
+  },
+  "assetVersions": {
+    "assets/animations/geo-observation-static.svg": "52d5e5a5b47d",
+    "assets/animations/geo-observation.svg": "188738348a19",
+    "assets/images/optimized/huifang-li.webp": "382264c60b50",
+    "assets/images/optimized/sres-emblem.webp": "03212955b337",
+    "assets/images/optimized/whu-lockup.webp": "cdafa153b732",
+    "assets/images/publications/2024-lcz.png": "dbabb3c570d1",
+    "assets/images/publications/2024-mctn.png": "2bf26fa1ff0b",
+    "assets/images/publications/2024-tcbc.png": "7f5e4f8865e5",
+    "assets/images/publications/2025-bids-nerf.png": "37c3ac8adb29",
+    "assets/images/publications/2025-catnet.png": "bd970b16d233",
+    "assets/images/publications/2025-pgcs.png": "be4592e705c3",
+    "assets/images/publications/2025-rs-gssr.png": "6edc65059925",
+    "assets/images/publications/2025-stcgl.png": "4a819f4f420d",
+    "assets/images/publications/2026-amodal.png": "042f69f9c548",
+    "assets/images/publications/2026-diffusion-cloud.png": "47f952e45c63",
+    "assets/images/publications/2026-gaw-lst.png": "dee2ce6b1bce",
+    "assets/images/publications/2026-phyvlm-cr.png": "5cd2a318ef59",
+    "assets/images/publications/2026-thermal-risk.png": "8aa8cdcb367e",
+    "assets/images/publications/previews/2024-lcz.webp": "9fb54e978f7e",
+    "assets/images/publications/previews/2024-mctn.webp": "02daf5419e58",
+    "assets/images/publications/previews/2024-tcbc.webp": "eb9f20b2c1f6",
+    "assets/images/publications/previews/2025-bids-nerf.webp": "010917482d09",
+    "assets/images/publications/previews/2025-catnet.webp": "09e6c66c7e44",
+    "assets/images/publications/previews/2025-pgcs.webp": "2e4ce3fa3b69",
+    "assets/images/publications/previews/2025-rs-gssr.webp": "3037239a992d",
+    "assets/images/publications/previews/2025-stcgl.webp": "672e587fdb16",
+    "assets/images/publications/previews/2026-amodal.webp": "4a481abc37d7",
+    "assets/images/publications/previews/2026-diffusion-cloud.webp": "471912ce3924",
+    "assets/images/publications/previews/2026-gaw-lst.webp": "098bc94f6b61",
+    "assets/images/publications/previews/2026-phyvlm-cr.webp": "83ca0d2b5e6f",
+    "assets/images/publications/previews/2026-thermal-risk.webp": "b38372002248",
+    "assets/images/ursga-logo.png": "3e1f818e4bca"
+  }
+}
